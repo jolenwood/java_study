@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3985070-b8b3-4077-9758-084f0a5409ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/dao/AccountMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/dao/AccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/pojo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/utils/MybatisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/study/dao/AccountMapperTest.java" afterDir="false" />
+    <list default="true" id="f3985070-b8b3-4077-9758-084f0a5409ed" name="Default Changelist" comment="创建mybatis学习项目汇总，创建第一个mybatis项目。">
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/META-INF/mybatis-01.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/study/dao/AccountMapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/study/dao/AccountMapper.xml" afterDir="false" />
@@ -23,7 +10,7 @@
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/META-INF/mybatis-01.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/study/dao/AccountMapperTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +42,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -150,14 +144,30 @@
       <updated>1579244671997</updated>
       <workItem from="1579244677066" duration="6452000" />
       <workItem from="1579263645035" duration="672000" />
-      <workItem from="1579265592984" duration="2966000" />
+      <workItem from="1579265592984" duration="3729000" />
     </task>
+    <task id="LOCAL-00001" summary="创建mybatis学习项目汇总，创建第一个mybatis项目。">
+      <created>1579320334868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579320334868</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="创建mybatis学习项目汇总，创建第一个mybatis项目。" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建mybatis学习项目汇总，创建第一个mybatis项目。" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="240" y="51" key="#Notifications" timestamp="1579320546587">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state x="240" y="51" key="#Notifications/0.23.1280.725@0.23.1280.725" timestamp="1579320546587" />
     <state x="240" y="65" key="#Project_Structure" timestamp="1579265746352">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -170,10 +180,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1579263726900" />
-    <state x="252" y="23" key="CommitChangelistDialog2" timestamp="1579320268722">
+    <state x="252" y="23" key="CommitChangelistDialog2" timestamp="1579320334513">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="252" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1579320268722" />
+    <state x="252" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1579320334513" />
     <state x="459" y="326" key="Github.CreateGistDialog" timestamp="1579309006503">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -206,6 +216,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="156" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1579309165591" />
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1579320772867">
+      <screen x="0" y="23" width="1280" height="725" />
+    </state>
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1579320772867" />
+    <state x="356" y="184" key="git4idea.merge.GitPullDialog" timestamp="1579320632262">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="356" y="184" key="git4idea.merge.GitPullDialog/0.23.1280.726@0.23.1280.726" timestamp="1579320632262" />
     <state x="34" y="97" key="new project wizard" timestamp="1579245925077">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
