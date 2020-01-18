@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--namespace指定要绑定的Mapper接口(原来JDBC的Dao接口)-->
+<mapper namespace="com.study.dao.AccountMapper">
+<!--    select查询操作 id对应接口中的方法名 resultType结果返回类型完整地址     -->
+    <select id="getAccounts" resultType="com.study.pojo.Account">
+        select * from account
+    </select>
+
+    <select id="getAccount" parameterType="int" resultType="com.study.pojo.Account">
+        select * from account where id = #{id}
+    </select>
+</mapper>
