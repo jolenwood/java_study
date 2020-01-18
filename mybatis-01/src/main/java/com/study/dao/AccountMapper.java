@@ -3,6 +3,7 @@ package com.study.dao;
 import com.study.pojo.Account;
 
 import java.util.List;
+import java.util.Map;
 
 public interface AccountMapper {
 
@@ -15,5 +16,9 @@ public interface AccountMapper {
     void deleteAccount(int id);
 
     void updateAccount(Account account);
+
+    //使用map来传递参数
+
+    void addAccount(Map<String,Object> map);
 
 }

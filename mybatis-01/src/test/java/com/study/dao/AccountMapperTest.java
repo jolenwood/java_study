@@ -5,7 +5,9 @@ import com.study.utils.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class AccountMapperTest {
 
@@ -81,6 +83,23 @@ public class AccountMapperTest {
 
         sqlSession.commit();
         sqlSession.close();
+    }
+
+    @Test
+    public void addAccount(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
+
+        Map<String,Object> map = new HashMap<String,Object>();
+        map.put("account_id",5);
+        map.put("account_name","WWW");
+        map.put("account_pwd","123456");
+
+        mapper.addAccount(map);
+
+        sqlSession.commit();
+        sqlSession.close();
+
     }
 
 }
