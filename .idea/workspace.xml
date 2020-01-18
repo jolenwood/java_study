@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3985070-b8b3-4077-9758-084f0a5409ed" name="Default Changelist" comment="创建mybatis学习项目汇总，创建第一个mybatis项目。">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/META-INF/mybatis-01.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/study/dao/AccountMapper.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/study/dao/AccountMapper.xml" afterDir="false" />
@@ -10,8 +11,12 @@
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/classes/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/META-INF/mybatis-01.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/study/dao/AccountMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/dao/AccountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/dao/AccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/dao/AccountMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/pojo/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/study/pojo/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/com/study/dao/AccountMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/study/dao/AccountMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - mybatis@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -73,7 +94,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -81,7 +104,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.AccountMapperTest.getAccount">
+  <component name="RunManager" selected="JUnit.AccountMapperTest.deleteAccount">
+    <configuration name="AccountMapperTest.deleteAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.study.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="deleteAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountMapperTest.getAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <extension name="coverage">
@@ -93,6 +132,22 @@
       <option name="PACKAGE_NAME" value="com.study.dao" />
       <option name="MAIN_CLASS_NAME" value="com.study.dao.AccountMapperTest" />
       <option name="METHOD_NAME" value="getAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountMapperTest.insertAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.study.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="insertAccount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,8 +169,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountMapperTest.updateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.study.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.study.dao.AccountMapperTest" />
+      <option name="METHOD_NAME" value="updateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountMapperTest.deleteAccount" />
+        <item itemvalue="JUnit.AccountMapperTest.updateAccount" />
+        <item itemvalue="JUnit.AccountMapperTest.insertAccount" />
         <item itemvalue="JUnit.AccountMapperTest.getAccount" />
         <item itemvalue="JUnit.AccountMapperTest.test" />
       </list>
@@ -126,7 +200,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - mybatis@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:MySQL - mybatis@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@2d64244d" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -145,7 +229,7 @@
       <updated>1579244671997</updated>
       <workItem from="1579244677066" duration="6452000" />
       <workItem from="1579263645035" duration="672000" />
-      <workItem from="1579265592984" duration="4071000" />
+      <workItem from="1579265592984" duration="6488000" />
     </task>
     <task id="LOCAL-00001" summary="创建mybatis学习项目汇总，创建第一个mybatis项目。">
       <created>1579320334868</created>
@@ -168,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579321100392</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test git test git">
+      <created>1579321276074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579321276074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +268,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建mybatis学习项目汇总，创建第一个mybatis项目。" />
     <MESSAGE value="test git push" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git push" />
+    <MESSAGE value="test git test git" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git test git" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="51" key="#Notifications" timestamp="1579320546587">
@@ -188,19 +280,23 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="65" key="#Project_Structure/0.0.1280.800@0.0.1280.800" timestamp="1579265746352" />
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1579249161205">
+    <state x="240" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579345623913">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1579249161205" />
+    <state x="240" y="65" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1579345623913" />
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser" timestamp="1579345313297">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1579345313297" />
     <state x="228" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579263726900">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="228" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1579263726900" />
-    <state x="252" y="23" key="CommitChangelistDialog2" timestamp="1579321206861">
+    <state x="252" y="23" key="CommitChangelistDialog2" timestamp="1579321275864">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="252" y="23" key="CommitChangelistDialog2/0.23.1280.725@0.23.1280.725" timestamp="1579321100112" />
-    <state x="252" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1579321206861" />
+    <state x="252" y="23" key="CommitChangelistDialog2/0.23.1280.726@0.23.1280.726" timestamp="1579321275864" />
     <state x="459" y="326" key="Github.CreateGistDialog" timestamp="1579309006503">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -209,34 +305,35 @@
       <screen x="0" y="23" width="1280" height="725" />
     </state>
     <state x="505" y="289" key="Github.ShareDialog/0.23.1280.725@0.23.1280.725" timestamp="1579312623652" />
-    <state width="1238" height="277" key="GridCell.Tab.0.bottom" timestamp="1579309302220">
-      <screen x="0" y="23" width="1280" height="725" />
+    <state width="1238" height="277" key="GridCell.Tab.0.bottom" timestamp="1579347061862">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="277" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579267732399" />
+    <state width="1238" height="277" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579347061862" />
     <state width="1238" height="277" key="GridCell.Tab.0.bottom/0.23.1280.725@0.23.1280.725" timestamp="1579309302220" />
-    <state width="1238" height="277" key="GridCell.Tab.0.center" timestamp="1579309302218">
-      <screen x="0" y="23" width="1280" height="725" />
+    <state width="1238" height="277" key="GridCell.Tab.0.center" timestamp="1579347061861">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="277" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579267732397" />
+    <state width="1238" height="277" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579347061861" />
     <state width="1238" height="277" key="GridCell.Tab.0.center/0.23.1280.725@0.23.1280.725" timestamp="1579309302218" />
-    <state width="1238" height="277" key="GridCell.Tab.0.left" timestamp="1579309302218">
-      <screen x="0" y="23" width="1280" height="725" />
+    <state width="1238" height="277" key="GridCell.Tab.0.left" timestamp="1579347061861">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="277" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579267732396" />
+    <state width="1238" height="277" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579347061861" />
     <state width="1238" height="277" key="GridCell.Tab.0.left/0.23.1280.725@0.23.1280.725" timestamp="1579309302218" />
-    <state width="1238" height="277" key="GridCell.Tab.0.right" timestamp="1579309302219">
-      <screen x="0" y="23" width="1280" height="725" />
+    <state width="1238" height="277" key="GridCell.Tab.0.right" timestamp="1579347061862">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="277" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579267732398" />
+    <state width="1238" height="277" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579347061862" />
     <state width="1238" height="277" key="GridCell.Tab.0.right/0.23.1280.725@0.23.1280.725" timestamp="1579309302219" />
     <state x="156" y="39" key="SettingsEditor" timestamp="1579309165591">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="156" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1579309165591" />
-    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1579320772867">
-      <screen x="0" y="23" width="1280" height="725" />
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2" timestamp="1579321290785">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.725@0.23.1280.725" timestamp="1579320772867" />
+    <state x="240" y="125" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1579321290785" />
     <state x="356" y="184" key="git4idea.merge.GitPullDialog" timestamp="1579320632262">
       <screen x="0" y="23" width="1280" height="726" />
     </state>

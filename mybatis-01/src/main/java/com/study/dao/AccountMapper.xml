@@ -12,4 +12,17 @@
     <select id="getAccount" parameterType="int" resultType="com.study.pojo.Account">
         select * from account where id = #{id}
     </select>
+
+    <insert id="insertAccount" parameterType="com.study.pojo.Account">
+        insert into account (id,name,pwd) values (#{id},#{name},#{pwd})
+    </insert>
+    
+    <update id="updateAccount" parameterType="com.study.pojo.Account" >
+        update account set name=#{name},pwd=#{pwd} where id =#{id}
+    </update>
+
+    <delete id="deleteAccount" parameterType="int">
+        delete from account where id = #{id}
+    </delete>
+    
 </mapper>

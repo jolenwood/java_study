@@ -44,4 +44,43 @@ public class AccountMapperTest {
         sqlSession.close();
 
     }
+
+    @Test
+    public void insertAccount(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
+
+        Account account = new Account(4,"Hello","pwd");
+
+        mapper.insertAccount(account);
+
+        sqlSession.commit();
+        sqlSession.close();
+
+    }
+
+    @Test
+    public void updateAccount(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
+
+        Account account = new Account(4,"HHH","123456");
+
+        mapper.updateAccount(account);
+
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
+    @Test
+    public void deleteAccount(){
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        AccountMapper mapper = sqlSession.getMapper(AccountMapper.class);
+
+        mapper.deleteAccount(4);
+
+        sqlSession.commit();
+        sqlSession.close();
+    }
+
 }
