@@ -9,6 +9,8 @@ public interface AccountMapper {
     List<Account> getAccounts();
 
     Account getAccount(int id);
-    //test git
+    //test git test test
+
+    void test ();
 
 }
